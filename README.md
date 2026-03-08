@@ -22,3 +22,22 @@ step-02 -> install the requirements
 bash--
 pip install -r requirements.txt
 
+##create a .env file in the root directory and add Pinecone and openai credentials as follows
+
+PINECONE_API_KEY = "XXXXXXXXXXXXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+-----------------------------------------------------------------------------------------
+#run the following commands
+python store_index.py
+---------------------------
+python app.py
+----------------------------
+open up localhost:
+-------------------------------
+Techstack used:
+   - Python
+   - Langchain
+   - Flask
+   - GPT
+   - Pinecone
+
